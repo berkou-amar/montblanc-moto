@@ -1,7 +1,7 @@
 config de git de manier globale
 $ git config --global user.name "berkou-amar"
 ajout du compt mail de manier global aussi
-$ git --global user.email "berkou.amar@gmail.com"
+$ git config --global user.email "berkou.amar@gmail.com"
 controler la bonne exucution de la config
 $ git --global --list
 la commande 'git status' verifie les fichier non sauvgarder ou non traquer dans la zone d'attante 
