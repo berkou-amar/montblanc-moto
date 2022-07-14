@@ -13,4 +13,12 @@ $ git add .
 et pour enlever un dossier en particulier de la zone d'attente il faut executer la commande 'git reset'
 $ git reset index.html
 le commit avec la commande 'git commit -m "" ' en sauvgarde les donner sur un depot locale 
-$ git commit -m"le titre ou le nom du commit ou de la version ou du dossier " 
+$ git commit -m"le titre ou le nom du commit ou de la version ou du dossier "
+commande pour envoiyer mon projet sur github
+$ git remote add origin https://github.com/berkou-amar/montblanc-motorcycle.git 
+commande pour verifier que le lien a etait fait entre mon pc et mon compt github
+$ git remote -v
+commande pour s'asurer que les dosier en etait envoyer sur la branch master
+$ git branch -M main
+commande pour envoyer les donner de facone definitive
+$ git push -u origin main
